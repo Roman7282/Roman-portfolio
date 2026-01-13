@@ -1,14 +1,75 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roman | Fotografie prírody</title>
+  <link rel="stylesheet" href="style.css">
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyDEZ4-aOPvDZYOQ--SIF4ixaw5Wqs3oKvY",
-  authDomain: "portfolio-roman-daniska.firebaseapp.com",
-  projectId: "portfolio-roman-daniska",
-  storageBucket: "portfolio-roman-daniska.firebasestorage.app",
-  messagingSenderId: "706441357493",
-  appId: "1:706441357493:web:5aefeabd106e2e63c436fc"
-};
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <h1>Roman</h1>
+  <p>Mobilná fotografia</p>
+</header>
+
+<nav>
+  <a href="#about">O mne</a>
+  <a href="#gallery">Galéria</a>
+  <a href="#videos">Videá</a>
+  <a href="#contact">Kontakt</a>
+</nav>
+
+<section id="about">
+  <h2>O mne</h2>
+  <p>
+    Volám sa Roman. Rád fotím prírodu a momenty v pohybe.
+    Tento web slúži ako moje osobné portfólio a priestor na zdieľanie výletov.
+  </p>
+</section>
+
+<section id="gallery">
+  <h2>Fotogaléria</h2>
+  <div class="gallery">
+    <a href="IMG_1662.jpeg" data-lightbox="galeria" data-title="Príroda 1">
+      <img src="IMG_1662.jpeg" alt="Príroda 1">
+    </a>
+    <a href="IMG_2134.jpeg" data-lightbox="galeria" data-title="Príroda 2">
+      <img src="IMG_2134.jpeg" alt="Príroda 2">
+    </a>
+    <a href="IMG_2263.jpeg" data-lightbox="galeria" data-title="Príroda 3">
+      <img src="IMG_2263.jpeg" alt="Príroda 3">
+    </a>
+    <!-- pridaj ďalšie fotky podľa potreby -->
+  </div>
+</section>
+
+<section id="videos">
+  <h2>Videá</h2>
+  <video controls>
+    <!-- sem neskôr pridáš video -->
+  </video>
+</section>
+
+<section id="contact">
+  <h2>Kontakt</h2>
+  <p>
+    Facebook:
+    <a href="https://www.facebook.com/" target="_blank">
+      Roman Romčo Daniška
+    </a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Roman</p>
+</footer>
+
+<!-- Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+</body>
+</html>
