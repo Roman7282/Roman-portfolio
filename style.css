@@ -79,3 +79,11 @@ footer {
 .gallery img:hover {
   transform: scale(1.05);
 }
+#upload {
+  margin-bottom: 25px;
+  padding: 10px;
+  background: white;
+  color: black;
+  border-radius: 8px;
+  font-weight: bold;
+}
