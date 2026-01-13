@@ -75,3 +75,7 @@ footer {
 .gallery img:hover {
   transform: scale(1.05);
 }
+/* OPRAVA HOVER EFEKTU GALÉRIE */
+.gallery img:hover {
+  transform: scale(1.05);
+}
