@@ -5,12 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Roman | Fotografie prírody</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
   <h1>Roman</h1>
-  <p>Fotografie prírody a vecí v pohybe</
+  <p>Fotografie prírody a vecí v pohybe</p>
 </header>
 
 <nav>
@@ -31,11 +34,16 @@
 <section id="gallery">
   <h2>Fotogaléria</h2>
   <div class="gallery">
-    <<div class="gallery">
-  <img src="IMG_1662.jpeg" alt="Príroda">
-  <img src="IMG_2134.jpeg" alt="Príroda">
-  <img src="IMG_2263.jpeg" alt="Príroda">
-</div>>
+    <a href="IMG_1662.jpeg" data-lightbox="galeria" data-title="Príroda 1">
+      <img src="IMG_1662.jpeg" alt="Príroda 1">
+    </a>
+    <a href="IMG_2134.jpeg" data-lightbox="galeria" data-title="Príroda 2">
+      <img src="IMG_2134.jpeg" alt="Príroda 2">
+    </a>
+    <a href="IMG_2263.jpeg" data-lightbox="galeria" data-title="Príroda 3">
+      <img src="IMG_2263.jpeg" alt="Príroda 3">
+    </a>
+    <!-- pridaj ďalšie fotky podľa potreby -->
   </div>
 </section>
 
@@ -59,6 +67,9 @@
 <footer>
   <p>© 2026 Roman</p>
 </footer>
+
+<!-- Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
 </body>
 </html>
